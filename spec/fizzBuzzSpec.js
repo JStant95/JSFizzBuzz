@@ -5,6 +5,7 @@ describe('FizzBuzz', function() {
     it('divisible by 3', function(){
       fizzbuzz = new FizzBuzz();
       expect(fizzbuzz.isDivisibleByThree(3)).toBe(true);
+      expect(fizzbuzz.isDivisibleByThree(4)).toBe(false);
     });
   });
 });
